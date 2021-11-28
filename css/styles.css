@@ -3,6 +3,7 @@
 /* белый #FFFFFF */
 /* акцент #2196F3 */
 /* цвет вторичного фона #2F303A; #E5E5E5; #F5F4F4 */
+/* стили для index.html*/
 :root {
   --primary-text-color--: #757575;
   --title-text-color--: #212121;
@@ -76,4 +77,52 @@ ul {
 }
 .contacts {
   color: rgba(255, 255, 255, 0.6);
+}
+/* стил для portfolio.html */
+:root {
+  --primary-text-color--: #757575;
+  --title-text-color--: #212121;
+  --accent-color--: #2196f3;
+}
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+.page-header {
+  background-color: #ffffff;
+}
+ul {
+  list-style: none;
+}
+.logo {
+  color: #2196f3;
+}
+.logo :hover {
+  color: #212121;
+}
+/* site-nav */
+
+.site-nav a {
+  color: #212121;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+/* contacts */
+.contacts a {
+  color: #757575;
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: #2196f3;
+}
+.section {
+  color: #212121;
+}
+.button {
+  color: #ffffff;
+}
+.paragraph {
+  color: #757575;
 }
