@@ -12,6 +12,9 @@ body {
   background-color: #ffffff;
   color: #757575;
 }
+.page-header {
+  background-color: #ffffff;
+}
 ul {
   list-style: none;
 }
@@ -42,12 +45,35 @@ ul {
 .hero-title {
   color: #ffffff;
 }
+.hero {
+  background-color: #2f303a;
+}
 /* section */
 .section-title {
   color: #212121;
+}
+.section {
+  background-color: #e5e5e5;
+}
+.section-command {
+  background-color: #f5f4f4;
 }
 /* button */
 .button {
   color: #ffffff;
   background-color: #2196f3;
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.logo a {
+  color: #2196f3;
+}
+
+.address {
+  color: #ffffff;
+}
+.contacts {
+  color: rgba(255, 255, 255, 0.6);
 }
