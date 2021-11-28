@@ -12,7 +12,9 @@
 body {
   background-color: #ffffff;
   color: #757575;
+  font-family: Roboto, sans-serif;
 }
+
 .page-header {
   background-color: #ffffff;
 }
@@ -21,6 +23,13 @@ ul {
 }
 .logo {
   color: #2196f3;
+  font-family: Raleway;
+
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height*/
+
+  letter-spacing: 0.03em;
 }
 .logo :hover {
   color: #212121;
@@ -29,6 +38,10 @@ ul {
 
 .site-nav a {
   color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -45,6 +58,13 @@ ul {
 /* hero */
 .hero-title {
   color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .hero {
   background-color: #2f303a;
@@ -52,17 +72,48 @@ ul {
 /* section */
 .section-title {
   color: #212121;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 .section {
   background-color: #e5e5e5;
 }
+.section-title-work {
+  color: #212121;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
 .section-command {
   background-color: #f5f4f4;
+}
+.text {
+  color: #757575;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
 }
 /* button */
 .button {
   color: #ffffff;
   background-color: #2196f3;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 /* footer */
 .footer {
@@ -70,13 +121,34 @@ ul {
 }
 .logo a {
   color: #2196f3;
+  font-family: Raleway;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
 }
 
 .address {
   color: #ffffff;
+  font-family: Roboto;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
 }
 .contacts {
   color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
 }
 /* стил для portfolio.html */
 :root {
