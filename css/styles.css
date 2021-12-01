@@ -27,8 +27,20 @@ ul {
 
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
   /* identical to box height*/
 
+  letter-spacing: 0.03em;
+}
+.Studio {
+  color: #212121;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
   letter-spacing: 0.03em;
 }
 .logo :hover {
@@ -42,6 +54,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -53,8 +66,9 @@ ul {
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 1.14;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contacts a:hover,
 .contacts a:focus {
@@ -130,18 +144,24 @@ ul {
 
 .address {
   color: #ffffff;
-  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
+
   letter-spacing: 0.03em;
 }
 .contacts {
   color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
+
   letter-spacing: 0.03em;
 }
 /* стил для portfolio.html */
@@ -170,6 +190,19 @@ ul {
 
   letter-spacing: 0.03em;
 }
+
+.Studio {
+  color: #212121;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+
 .logo :hover {
   color: #212121;
 }
@@ -207,11 +240,15 @@ ul {
   letter-spacing: 0.03em;
 }
 .button {
-  color: #ffffff;
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   /* identical to box height, or 162% */
+
+  text-align: center;
   letter-spacing: 0.03em;
 }
 .heading {
