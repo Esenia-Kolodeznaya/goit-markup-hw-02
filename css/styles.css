@@ -133,12 +133,9 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
 }
-
-.button:hover,
-.button:focus {
+.button:hover .button:focus {
   color: #ffffff;
 }
-
 /* footer */
 .footer {
   background-color: #2f303a;
@@ -152,8 +149,7 @@ ul {
   /* identical to box height */
   letter-spacing: 0.03em;
 }
-
-.Studio span {
+.Studio-one {
   color: #ffffff;
   font-family: Raleway;
   font-style: normal;
@@ -161,9 +157,9 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
+
   letter-spacing: 0.03em;
 }
-
 .address {
   color: #ffffff;
   font-family: Roboto;
@@ -265,7 +261,7 @@ ul {
   /* identical to box height, or 162% */
   letter-spacing: 0.03em;
 }
-.button li {
+.button {
   color: #ffffff;
   font-family: Roboto;
   font-style: normal;
@@ -307,7 +303,17 @@ ul {
   /* identical to box height */
   letter-spacing: 0.03em;
 }
+.Studio-one {
+  color: #ffffff;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
 
+  letter-spacing: 0.03em;
+}
 .address {
   color: #ffffff;
   font-weight: 400;
@@ -316,7 +322,7 @@ ul {
   /* or 171% */
   letter-spacing: 0.03em;
 }
-.contacts {
+.contacts-child {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
