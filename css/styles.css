@@ -90,13 +90,27 @@ ul {
   background-color: #2f303a;
 }
 /* section */
-.section-title {
+.fiture-title {
   color: var(--title-text-color--);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
+.text {
+  color: var(--primary-text-color--);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+}
+
 .section {
   background-color: #e5e5e5;
 }
@@ -111,12 +125,24 @@ ul {
 .section-command {
   background-color: #f5f4f4;
 }
-.text {
+.team-title {
+  color: var(--title-text-color--);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+.position {
   color: var(--primary-text-color--);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  /* or 171% */
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
   letter-spacing: 0.03em;
 }
 /* button */
